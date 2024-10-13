@@ -34,3 +34,4 @@ class PantallaLogin(tk.Frame):
             self.show_permissions_screen(usuario)
         else:
             messagebox.showerror("Error", "Autenticación fallida. Verifique sus credenciales.")
+            #

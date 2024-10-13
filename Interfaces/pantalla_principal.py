@@ -15,3 +15,4 @@ class PantallaPrincipal(tk.Frame):
         ttk.Label(self, text="Bienvenido al Sistema de Control de Acceso", font=("Helvetica", 18)).pack(pady=20)
         ttk.Button(self, text="Registrarse", command=self.show_register_screen).pack(pady=10)
         ttk.Button(self, text="Iniciar Sesión", command=self.show_login_screen).pack(pady=10)
+#

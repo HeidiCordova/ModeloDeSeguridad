@@ -11,6 +11,6 @@ class Usuario:
         return self.rol.tiene_permiso(permiso)
 
 # Ejemplo de uso:
-# usuario_admin = Usuario("Alice", rol_admin)
-# if usuario_admin.tiene_permiso(permiso_leer):
-#     print("El usuario tiene permiso para leer.")
+#usuario_admin = Usuario("Alice", rol_admin)
+#if usuario_admin.tiene_permiso_en_rol(permiso_leer):
+#    print("El usuario tiene permiso para leer.")
